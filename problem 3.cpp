@@ -4,7 +4,7 @@
 void fibonacciSeries(int n) {
     int num1 = 0, num2 = 1;
     int sum = 0;
-    cout << "Fibonacci Series: ";
+
 
     for (int i = 0; i < n; i++) {
         cout << num1 << " ";
@@ -15,13 +15,12 @@ void fibonacciSeries(int n) {
         num2 = next;
     }
 
-    cout << endl << "Sum: " << sum;
+    cout << endl<< sum;
 }
 
 int main() {
     int n;
 
-    cout << "Enter the number of terms: ";
     cin >> n;
 
     fibonacciSeries(n);
