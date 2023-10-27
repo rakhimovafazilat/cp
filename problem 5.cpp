@@ -3,7 +3,7 @@
  
  int main (){
      int h;
-     cout << "Enter hight:" ;
+
      cin >> h;
      int start = h-1,counter = 1;
      for(int i = 1;i < h; i++){
