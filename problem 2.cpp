@@ -6,7 +6,7 @@ int main() {
     int oddSum = 0;
     int evenSum = 0;
     
-    cout << "Enter num1 : " ; cin >> num1;
+  cin >> num1;
     
     for(int i=0;i<=num1; i++){
         if(i%2==0){
@@ -15,8 +15,8 @@ int main() {
             oddSum +=i;
         }
        
-    }  cout << "Sum of the odd number: " << oddSum << endl;
-        cout << "sum of the even number: " << evenSum ;
+    }  cout << oddSum << endl;
+        cout  << evenSum ;
 
     return 0;
 }
